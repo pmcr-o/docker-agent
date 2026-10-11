@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docker Build Image"
+  short_description: "Dry-run-first bounded local Docker image build"
+  default_prompt: "Use $build-image to prepare a bounded local Docker build and do not push it."

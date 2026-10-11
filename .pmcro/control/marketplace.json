@@ -1,0 +1,16 @@
+{
+  "name": "docker-agent",
+  "owner": {
+    "name": "pmcr-o"
+  },
+  "metadata": {
+    "description": "Docker domain agent with dry-run-first engine inspection and bounded image builds."
+  },
+  "plugins": [
+    {
+      "name": "docker",
+      "source": "./.pmcro/plugins/docker",
+      "description": "docker capabilities owned by docker-agent"
+    }
+  ]
+}

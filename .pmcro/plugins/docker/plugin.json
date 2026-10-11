@@ -1,0 +1,6 @@
+{
+  "name": "docker",
+  "version": "0.1.0",
+  "description": "Bounded Docker CLI inspection and local image build capabilities.",
+  "skills": ["./skills/"]
+}

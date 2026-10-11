@@ -1,0 +1,4 @@
+{
+  "skill": "status",
+  "expectedDryRun": "dry run: docker version"
+}

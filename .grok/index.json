@@ -1,0 +1,21 @@
+{
+  "apiVersion": "pmcro.dev/v1",
+  "kind": "agent.index",
+  "agent": "docker-agent",
+  "entries": [
+    {
+      "route": "@docker-agent /docker:build-image",
+      "plugin": "docker",
+      "skill": "build-image",
+      "description": "Prepare or execute one local Docker image build inside an explicit workspace. Dry-run is the default; Apply is required for the real build.",
+      "path": ".pmcro/plugins/docker/skills/build-image"
+    },
+    {
+      "route": "@docker-agent /docker:status",
+      "plugin": "docker",
+      "skill": "status",
+      "description": "Inspect Docker CLI and daemon status through a bounded dry-run-first command. Use when a workflow needs to know whether Docker is available before planning container work.",
+      "path": ".pmcro/plugins/docker/skills/status"
+    }
+  ]
+}

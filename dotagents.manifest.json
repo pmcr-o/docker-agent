@@ -1,0 +1,16 @@
+{
+  "schema": "dotagents.manifest/v1",
+  "name": "docker-agent",
+  "owner": "pmcr-o",
+  "description": "Docker domain agent with dry-run-first engine inspection and bounded image builds.",
+  "invocationField": "plugin",
+  "plugins": [
+    {
+      "name": "docker",
+      "source": "./.pmcro/plugins/docker",
+      "description": "docker capabilities owned by docker-agent"
+    }
+  ],
+  "canonical": ".pmcro",
+  "projection": ".agents"
+}
