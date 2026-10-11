@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docker Status"
+  short_description: "Inspect Docker availability without mutation"
+  default_prompt: "Use $status to inspect Docker availability before container work."
